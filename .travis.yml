@@ -9,5 +9,7 @@ deploy:
   api_key:
     secure: hDSGd54Ae7U/11+2NOnx/CoXod3hQApVAVeT+0XkASvLp8r2UYIxXJbjc7pP+ms8TW/HEeP5NFVKKHQYHkexckASqkNItGcFcZP+UAD97LzA50uzeJwEjGccmQC43nzRduKUYMOaUt8xBpKZHH5bgShKn5hC/RVFwtAwC35tLTsAIM1wUvY9IOsFDggi+0KSZbKSsYsLtRm88FLrkam/eyDoFjEtSVZlr7YFizWjs/VZR0GrP/Zb+3JQln0b/dobHt76ASdcGoQ/VmnjUH9z1Gyzgj0fb3+wWHROsqqKaDxMgY0PXPusuAKusEZbkCd76YNpSvE2jsbyLEZA/CJ4UOhsWlOVT7WP4vt7lFEumDx2iUfM13jREZHL8/BkCrLQn+yv0yTrXrRhDnxYoJauVAOPQ1qSWo3IxoWfDfE4XvGLsuEddCOOzTpBMavGpzMjN/AgaYEP+LpFQ59w9H2NUtOF//EZF/6hE3/9uIbccyU/5Jah0/wcGiE0LqMWJM61PcIz6EAlVxmId5vmwXFhuPDmdqTRHt6J1eHof3OfMutxKLcDIhOL+3rmZCuqylG5LHEchx4+4jdVdGtevzz8p2T8lbMztd4GmnXnq1WJmudlusW9dprP1clshRe2CxJdjYtWA4NGB1gG/xnEa9y60kgQmkd/tv74lvS0jrCnr54=
   file: hello_world-linux-amd64
+  skip_cleanup: true
   on:
     repo: 06chaynes/hello_world
+    tags: true
